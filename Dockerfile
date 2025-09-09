@@ -13,7 +13,7 @@ FROM $BASE_DOCKER_IOP_IMAGE
 FROM $BASE_DOCKER_EE_IMAGE
 
 # Second stage of Dockerfile
-FROM alpine:latest
+FROM alpine:3.21.0
 
 ENV PS2DEV /usr/local/ps2dev
 ENV PS2SDK $PS2DEV/ps2sdk
